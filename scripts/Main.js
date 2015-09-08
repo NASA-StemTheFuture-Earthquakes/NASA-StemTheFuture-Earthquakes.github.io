@@ -313,7 +313,7 @@ define(['http://worldwindserver.net/webworldwind/worldwindlib.js',
                     }
                     if(indexofpreviousTweet == -1)
                     {
-                        indexofpreviousTweet = earthQuakes.length-1;ß
+                        indexofpreviousTweet = earthQuakes.length-1;
                     }
                     for (var i = indexofpreviousTweet- 1; i >= 0; i--) //for each new earthquake check to see if it was the last tweet
                     {
